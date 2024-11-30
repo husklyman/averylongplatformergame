@@ -57,7 +57,7 @@ public class pausemenu : MonoBehaviour
     {
         isPaused = false;
         Time.timeScale = 1f;
-        SceneManager.LoadScene("levels");
+        SceneManager.LoadScene(0);
     }
     public void resume()
     {
